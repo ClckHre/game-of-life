@@ -48,11 +48,6 @@ int main() {
         if (ch == ' ') {
             update_grid(grid, width, height);
         }
-        /*
-        if (ch == 'l') {
-            mvprintw(15, 15, "%i", get_neighbour_amount(8 + 7*width, grid, width, height));
-        }
-        */
     }
     endwin();
     return 0;
